@@ -13,6 +13,36 @@ export default function Mint(){
     const golduri = "https://violet-youthful-kingfisher-561.mypinata.cloud/ipfs/QmdmHe5XMmFwbTmodoQd8qK7MiMGrjw7rvvV89thJ4ZCTz";
     const platuri = "https://violet-youthful-kingfisher-561.mypinata.cloud/ipfs/QmTTZFtm4vsSdZnBuqNve6286U1LHHbRqNYzcJU8ubtoRn";
     const handleStandardMint = () => {
+        isConnected? 
+        
+        writeContract({ 
+            abi,
+            address: '0x74De3F1a404E14D8B5013da5f937bf4DC2F4a626',
+            functionName: 'safeMint',
+            args: [
+                address,
+                standarduri,
+            ],
+        })
+        :
+        alert("please connect to wallet first")
+    };
+    const handleGoldMint = () => {
+        isConnected? 
+        writeContract({ 
+            abi,
+            address: '0x74De3F1a404E14D8B5013da5f937bf4DC2F4a626',
+            functionName: 'safeMint',
+            args: [
+                address,
+                golduri,
+            ],
+        })
+        :
+        alert("please connect to wallet first")
+    };
+    const handlePlatMint = () => {
+        isConnected? 
         writeContract({ 
             abi,
             address: '0x74De3F1a404E14D8B5013da5f937bf4DC2F4a626',
@@ -22,28 +52,8 @@ export default function Mint(){
               standarduri,
             ],
          })
-      };
-      const handleGoldMint = () => {
-        writeContract({ 
-            abi,
-            address: '0x74De3F1a404E14D8B5013da5f937bf4DC2F4a626',
-            functionName: 'safeMint',
-            args: [
-              address,
-              golduri,
-            ],
-         })
-      };
-      const handlePlatMint = () => {
-        writeContract({ 
-            abi,
-            address: '0x74De3F1a404E14D8B5013da5f937bf4DC2F4a626',
-            functionName: 'safeMint',
-            args: [
-              address,
-              standarduri,
-            ],
-         })
+         :
+        alert("please connect to wallet first")
       };
     return(
         <div className="min-h-screen bg-black">
