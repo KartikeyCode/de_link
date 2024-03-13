@@ -8,7 +8,7 @@ export default function Navbar() {
            <div className=" items-center gap-1 md:gap-10 font-Inter hidden sm:flex">
                 <a className="text-[#B7B7B7] text-xl font-semibold hover:scale-105 transition-all" href="/about"> About Us </a>
                 <a className="text-[#B7B7B7] text-xl font-semibold hover:scale-105 transition-all" href="/mint"> Mint NFT </a>
-                <a className="text-[#B7B7B7] text-xl font-semibold hover:scale-105 transition-all" href="/roadmap"> Roadmap </a>
+                
            </div>
            <ConnectButton />
     </div>
