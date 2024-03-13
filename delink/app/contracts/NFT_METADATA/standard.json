@@ -1,0 +1,11 @@
+{
+    "description": "standard edition of the de_link NFT", 
+    "image": "https://violet-youthful-kingfisher-561.mypinata.cloud/ipfs/QmRqVoZse3FYvsUrqS2Hg2x8bqWtT1KuHBTBPxpp5YL7Z1", 
+    "name": "de_link standard",
+    "attributes": [
+      {
+        "trait_type": "edition", 
+        "value": "standard"
+      }
+    ] 
+  }

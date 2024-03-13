@@ -1,0 +1,11 @@
+{
+    "description": "platinum edition of the de_link NFT", 
+    "image": "https://violet-youthful-kingfisher-561.mypinata.cloud/ipfs/QmWjzqbyySi2GoRQMEaHfcEnN4WMQZsYgGPGdNAqRXSEFp", 
+    "name": "de_link platinum",
+    "attributes": [
+      {
+        "trait_type": "edition", 
+        "value": "platinum"
+      }
+    ] 
+  }

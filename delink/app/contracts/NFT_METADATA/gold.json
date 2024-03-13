@@ -1,0 +1,11 @@
+{
+    "description": "gold edition of the de_link NFT", 
+    "image": "https://violet-youthful-kingfisher-561.mypinata.cloud/ipfs/Qmdz7PMWT8B8mgM9xTDLjknRXt7J3P5HxMgeVdeYgE5A4j", 
+    "name": "de_link gold",
+    "attributes": [
+      {
+        "trait_type": "edition", 
+        "value": "gold"
+      }
+    ] 
+  }
