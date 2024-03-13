@@ -2,6 +2,9 @@
 # https://unrealdelink.vercel.app/
 De Link is your gateway to connect differently. We offer users the option to mint their own NFT exactly how they would want it with the added bonus of having it in a physical NFC attached card or sticker format. The NFT acts as their social representative in public settings. Be it meetings, cohorts, or hackathons, De Link allows you to express yourself and connect with other users seamlessly, creating an ecosystem of shared social net worth.
 
+## to see the NFTs in your wallet import the NFT with contract address and id number of NFT 
+## USE THIS CONTRACT ADDRESS: 0x74De3F1a404E14D8B5013da5f937bf4DC2F4a626
+
 ## Features
 
 - Mint your own NFTs.
